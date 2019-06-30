@@ -30,7 +30,7 @@ try {
         }
     }
   }
-
+  
 window.onload = function() {    
     document.getElementById('searchOrNew').addEventListener("keypress",dispatch);
 }

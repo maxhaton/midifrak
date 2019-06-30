@@ -8,5 +8,6 @@
 	},
 	"description": "audio visualization",
 	"license": "GPL-2.0",
-	"name": "midifrak"
+	"name": "midifrak",
+	"postBuildCommands": ["tsc"]
 }

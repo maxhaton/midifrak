@@ -4,7 +4,7 @@ html
     link(rel='stylesheet', href='https://unpkg.com/wingcss')
     meta(charset='UTF-8')
     title MIDIFRAK
-    style(rel='stylesheet', href='midifrak.css')
+    link(rel='stylesheet', type="text/css", href='./midifrak.css')
       
   body
     noscript
