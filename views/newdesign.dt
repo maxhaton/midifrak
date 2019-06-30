@@ -1,0 +1,9 @@
+doctype html
+html
+  head
+    link(rel='stylesheet', href='https://unpkg.com/wingcss')
+    meta(charset='UTF-8')
+    title MIDIFRAK
+    style(rel='stylesheet', href='public/midifrak.css')
+  body
+    | Penis penis penis

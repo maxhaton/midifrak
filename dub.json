@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"maxhaton"
+	],
+	"copyright": "Copyright © 2019, maxhaton",
+	"dependencies": {
+		"vibe-d": "~>0.8.2"
+	},
+	"description": "audio visualization",
+	"license": "GPL-2.0",
+	"name": "midifrak"
+}

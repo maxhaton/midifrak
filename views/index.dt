@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    link(rel='stylesheet', href='https://unpkg.com/wingcss')
+    meta(charset='UTF-8')
+    title MIDIFRAK
+    style(rel='stylesheet', href='midifrak.css')
+      
+  body
+    noscript
+      h1 Javascript is required ☒ 
+    .container.center
+      section
+        h1 MIDIFRAK
+    h2.header.center What?
+    section#intro.container.center
+      | "MIDIFRAK"(No meaning intended) does music visualization
+      | by MIDI and by listening to audio.
+      br
+      |     Extensibility and composition are the guiding principles of it's design
+    h3.header.center Can I?
+    section#featureDisplay.center.container
+      .row
+        #webAudioSupport.col.nowrap
+          | WebAudio ✓
+        #webMidiSupport.col.nowrap
+          | WebMidi ✓
+    .center.container
+      input#searchOrNew(type='text', placeholder='Leave blank to make a new visualization. Press Enter to run')
+    script(src='index.js')

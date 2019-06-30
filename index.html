@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="https://unpkg.com/wingcss" />
+  <meta charset="UTF-8">
+  <title>MIDIFRAK</title>
+</head>
+<style>
+.nowrap {
+  size: 8px;
+ 
+  white-space: nowrap;
+}
+</style>
+<body>
+  <noscript>
+    <h1>Javascript is required ☒</h1>
+  </noscript>
+  <div class="container center">
+    <section>
+      <h1>MIDIFRAK</h1>
+    </section>
+  </div>
+  <h2 class="header center">What?</h2>
+  <section id="intro" class="container center">
+    "MIDIFRAK"(No meaning intended) does music visualization
+    by MIDI and by listening to audio.
+
+    <br>
+
+    Extensibility and composition are the guiding principles of it's design
+  </section>
+  <h3 class="header center">Can I?</h3>
+  <section id="featureDisplay" class="center container">
+    <div class="row">
+      <div id="webAudioSupport" class="col nowrap">
+        WebAudio ✓
+      </div>
+      <div id="webMidiSupport" class="col nowrap">
+        WebMidi ✓
+      </div>
+    </div>
+    
+    </div>
+  </section>
+
+
+  <div class="center container">
+      <input type="text" placeholder="Leave blank to make a new visualization. Press Enter to run" id="searchOrNew"/>
+  </div>
+
+  
+</body>
+<script  src="index.js"></script>
+</html>
