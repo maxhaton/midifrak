@@ -4,6 +4,15 @@ html
     link(rel='stylesheet', href='https://unpkg.com/wingcss')
     meta(charset='UTF-8')
     title MIDIFRAK
-    style(rel='stylesheet', href='static/midifrak.css')
+    link(rel='stylesheet', type="text/css", href='midifrak.css')
+    script(src="newdesign.js")
   body
-    | Penis penis penis
+    navbar.vertical-align
+    .left
+      | Lorem ipsum la di da olly likes to be pegged
+    .flex-container.right
+      | data
+      input
+      button
+    hr
+    | Useful information

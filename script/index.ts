@@ -24,7 +24,7 @@ try {
         let str = (innerMe as HTMLInputElement).value;
         console.log(str);
         if(str.length == 0) {
-            window.location.href = 'newdesign.html';
+            window.location.href = '/newdesign';
         } else {
             alert("Storage not implemented yet: ");
         }

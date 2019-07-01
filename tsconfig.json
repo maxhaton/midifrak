@@ -3,9 +3,9 @@
         "target": "es6",
         "module": "commonjs",
         "sourceMap": true,
-        "outDir": "../public/"
+        "outDir": "./public/"
     },
     "include": [
-        "script/*.ts"
+        "script/index.ts"
     ]
 }

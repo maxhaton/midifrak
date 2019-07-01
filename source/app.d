@@ -9,6 +9,7 @@ void main()
 	auto route = new URLRouter; 
 
 	route.get("/", &hello);
+	route.get("/newdesign", &startNew);
 	route.get("*", serveStaticFiles("public/"));
 
 
@@ -17,7 +18,10 @@ void main()
 	logInfo("Please open http://127.0.0.1:8080/ in your browser.");
 	runApplication();
 }
-
+void startNew(HTTPServerRequest req, HTTPServerResponse res)
+{
+	res.render!("newdesign.dt");
+}
 void hello(HTTPServerRequest req, HTTPServerResponse res)	
 {
 	res.render!("index.dt", req);
