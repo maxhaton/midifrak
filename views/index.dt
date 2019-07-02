@@ -5,7 +5,7 @@ html
     meta(charset='UTF-8')
     title MIDIFRAK
     link(rel='stylesheet', type="text/css", href='./midifrak.css')
-      
+    link(rel='icon', href='icon.png')
   body
     noscript
       h1 Javascript is required ☒ 

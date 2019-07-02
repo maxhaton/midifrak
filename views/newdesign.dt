@@ -6,6 +6,7 @@ html
     title MIDIFRAK
     link(rel='stylesheet', type="text/css", href='midifrak.css')
     script(src="newdesign.js")
+    link(rel='icon', href='icon.png')
   body
     navbar.vertical-align
     .left
