@@ -3,17 +3,14 @@ html
   head
     link(rel='stylesheet', href='https://unpkg.com/wingcss')
     meta(charset='UTF-8')
-    title MIDIFRAK
-    link(rel='stylesheet', type="text/css", href='midifrak.css')
-    script(src="newdesign.js")
+    title New Design
+    link(rel='stylesheet', type="text/css", href='midifrak.css?1234')
+    script(src="script/newdesign.js", type="module")
+    script(src="jsinclude/basicterminal.js", type="module")
     link(rel='icon', href='icon.png')
   body
-    navbar.vertical-align
-    .left
-      | Lorem ipsum la di da olly likes to be pegged
-    .flex-container.right
-      | data
-      input
-      button
+    .nav.center.fixed
+      textarea#terminal.nav-item.left(class="stump")
+      input#nameInput.nav-item.right.wide(placeholder="Name your creation, press enter to save")
     hr
-    | Useful information
+    

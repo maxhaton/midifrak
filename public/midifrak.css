@@ -14,16 +14,26 @@
   width: 80%;
 }
 
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap; 
-  width: 60%;
+.wide {
+  width: 50%;
+  float: left;
+}
+.fixed {
+  position: fixed;
+}
+.stump {
+  height: 15%;
+  padding: 0;
+  margin: 2%;
+  width: 30%;
+  color: green;
+  border: 0;
+  float: left;
+}
+.ev {
+ white-space: nowrap;
 }
 
-.flex-container > div {
-  width: fit-content;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+.ev * {
+ display: inline;
 }

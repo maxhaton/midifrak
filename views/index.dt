@@ -4,7 +4,7 @@ html
     link(rel='stylesheet', href='https://unpkg.com/wingcss')
     meta(charset='UTF-8')
     title MIDIFRAK
-    link(rel='stylesheet', type="text/css", href='./midifrak.css')
+    link(rel='stylesheet', type="text/css", href='./midifrak.css?1234')
     link(rel='icon', href='icon.png')
   body
     noscript
@@ -27,4 +27,4 @@ html
           | WebMidi ✓
     .center.container
       input#searchOrNew(type='text', placeholder='Leave blank to make a new visualization. Press Enter to run')
-    script(src='index.js')
+    script(src='script/index.js', async)

@@ -1,11 +1,14 @@
 {
     "compilerOptions": {
-        "target": "es6",
-        "module": "commonjs",
+        "target": "es2018",
         "sourceMap": true,
         "outDir": "./public/"
     },
+    "files": [
+        "script/index.ts",
+        "script/newdesign.ts"
+    ],
     "include": [
-        "script/index.ts"
+        "jsinclude/*.ts"
     ]
 }
