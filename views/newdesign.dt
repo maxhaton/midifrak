@@ -9,8 +9,11 @@ html
     script(src="jsinclude/basicterminal.js", type="module")
     link(rel='icon', href='icon.png')
   body
-    .nav.center.fixed
-      textarea#terminal.nav-item.left(class="stump")
-      input#nameInput.nav-item.right.wide(placeholder="Name your creation, press enter to save")
-    hr
+    details
+      summary.center
+        | Save and use plugins
+      .nav.center.fixed
+        textarea#terminal.nav-item.left(class="stump")
+        input#nameInput.nav-item.right.wide(placeholder="Name your creation, press enter to save")
+      hr
     

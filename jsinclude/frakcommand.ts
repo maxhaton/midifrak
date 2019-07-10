@@ -13,3 +13,10 @@ abstract class PriorityCommand implements  FrakCommand {
         this.parent = pop;
     }
 }
+export class printTime implements FrakCommand {
+    looksFor: string = "time";
+    proc(): string
+    {
+        return Date().toString();
+    }
+}
