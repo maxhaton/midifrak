@@ -5,8 +5,10 @@ html
     meta(charset='UTF-8')
     title New Design
     link(rel='stylesheet', type="text/css", href='midifrak.css?1234')
-    script(src="script/newdesign.js", type="module")
-    script(src="jsinclude/basicterminal.js", type="module")
+    script(src="jsinclude/basicterminal.js", type="module", defer)
+    script(src="jsinclude/webmidi.js", type="module", defer)
+    script(src="script/newdesign.js", type="module", defer)
+    
     link(rel='icon', href='icon.png')
   body
     details

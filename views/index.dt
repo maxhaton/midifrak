@@ -27,4 +27,6 @@ html
           | WebMidi ✓
     .center.container
       input#searchOrNew(type='text', placeholder='Leave blank to make a new visualization. Press Enter to run')
+    footer.indexFooter 
+      img.center(src="https://www.gnu.org/graphics/gplv3-with-text-136x68.png")
     script(src='script/index.js', async)

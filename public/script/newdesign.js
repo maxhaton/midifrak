@@ -1,5 +1,6 @@
 import { TextAreaTerminal } from "../jsinclude/basicterminal.js";
 import { printTime } from "../jsinclude/frakcommand.js";
+import { MidiFrakRoot } from "../jsinclude/midifrakroot.js";
 let x;
 try {
     x = new TextAreaTerminal("terminal", true);
@@ -9,6 +10,6 @@ try {
 catch (d) {
     console.log(d);
 }
-console.log(x.commands);
-console.log("This is just a test");
+let mf = new MidiFrakRoot.MidiFrak(x);
+mf.getCommands().map(y => x.registerShim(x, y));
 //# sourceMappingURL=newdesign.js.map
